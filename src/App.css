@@ -95,22 +95,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: 90vh;
 }
 .features-container-up {
+    height: 20vh;
+    width: 40vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.buy-token-btn::before {
+    position: absolute;
+    top: 1033px;
+    left: 0px;
+    content: "";
+    width: 20px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skew(-60deg);
+    /* transition: 1s; */
+    animation: shine 2.5s ease infinite;
+}
+@keyframes shine {
+    from {left: 980px;}
+    to {left: 1400px;}
+}
+.buy-token-btn button{
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    background: linear-gradient(to right, #01211d, #469071 );
 }
 .features-container-down {
     display: flex;
     flex-direction: column;
+    width: 70vw;
 }
 .features-container-down-paragraphs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-
-
+.earn-vote {
+    width: 20rem;
+}
+.supply-borrow {
+    width: 20rem;
+}
 
 
 

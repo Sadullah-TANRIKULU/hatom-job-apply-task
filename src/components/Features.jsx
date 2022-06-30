@@ -13,10 +13,10 @@ const Features = () => {
         <div className="dividends">
           <i>$</i>
           <span>9,449,627.26</span>
-          <span>Dividends</span>
+          <span> Dividends</span>
           <p>Paid out to Hatom Token Holders over 3 years</p>
         </div>
-        <div className="btn">
+        <div className="buy-token-btn">
           <button>Buy Hatom Tokens</button>
         </div>
       </div>
