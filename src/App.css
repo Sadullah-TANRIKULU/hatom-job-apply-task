@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+@import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro');
+*{
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+}
+                
+/* HEADER CSS */
+
+.header-container {
+    background-image: url('./assets/hatom token header 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+   
+                                                
+}
+.header-container-up {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 2rem;
+}
+.hatom-logo {
+    color: #fff;
+    margin: 1rem;
+}
+.header-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-links ul li {
+    margin: 1rem;
+}
+.header-links ul li a {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+.btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1;
+    margin: 1rem;
+}
+.btns .btn-elrond {
+    display: inline;
+    align-items: center;
+    width: 7rem;
+    margin: 1rem;
+    background: linear-gradient(to right, #469071, #000);
+    color: #fff;
+    cursor: pointer;
+}
+.btns .btn-app {
+    cursor: pointer;
+    width: 7rem;
+    border: #469071 1px solid;
+    color: #fff;
+    margin: 1rem;
+    background-color: #01211D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-container-down {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+.header-container-down h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    text-shadow: 6px 0 2px #469071;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.header-container-down p {
+    color: #469071;
+    margin-top: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* FEATURES CSS */
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.features-container-up {
+    display: flex;
+    align-items: center;
+}
+.features-container-down {
+    display: flex;
+    flex-direction: column;
+}
+.features-container-down-paragraphs {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
