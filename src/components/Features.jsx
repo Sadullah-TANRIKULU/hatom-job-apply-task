@@ -1,10 +1,5 @@
-import rectangle100 from "../assets/Rectangle 100.png";
-import rectangle101 from "../assets/Rectangle 101.png";
-import rectangle102 from "../assets/Rectangle 102.png";
-import rectangle104 from "../assets/Rectangle 104.png";
-import rectangle104horizontal from "../assets/Rectangle 104 horizontal.png";
-import rectangle105 from "../assets/Rectangle 105.png";
-import ellipse from "../assets/Ellipse 23.png";
+import groupRectangleEllipse from "../assets/Group 232.png";
+
 
 const Features = () => {
   return (
@@ -22,7 +17,7 @@ const Features = () => {
       </div>
       <div className="features-container-down">
         <h2 className="features-container-down-header">
-          <span>Features</span> of Hatom Token
+          <span className="features-word" >Features</span> of Hatom Token
         </h2>
         <div className="features-container-down-paragraphs">
             <div className="earn-vote">
@@ -42,21 +37,7 @@ const Features = () => {
           </div>
           </div>
           <div className="rectangle-ellipse">
-            <div className="rectangle-ellipse-top-left">
-              <img src={ellipse} alt="vectors" />
-              <img src={rectangle100} alt="vectors" />
-              <img src={rectangle102} alt="vectors" />
-            </div>
-            <div className="rectangle-ellipse-bottom-left">
-              <img src={ellipse} alt="vectors" />
-              <img src={rectangle101} alt="vectors" />
-              <img src={rectangle105} alt="vectors" />
-            </div>
-            <div className="rectangle-ellipse-top-right">
-              <img src={rectangle104} alt="vectors" />
-              <img src={rectangle104horizontal} alt="vectors" />
-              <img src={ellipse} alt="vectors" />
-            </div>
+            <img className="rectangle-ellipse-img" src={groupRectangleEllipse} alt="diagramImage" />
           </div>
           <div className="supply-borrow">
             <h3>Supply & Borrow</h3>

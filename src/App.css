@@ -24,11 +24,18 @@
     font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
     font-size: 1.2rem;
     font-weight: bolder;
-    margin: 2rem;
+    margin: 2rem 0 0 0;
 }
 .hatom-logo {
-    color: #fff;
     margin: 1rem;
+}
+.hatom-logo a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.hatom-logo-img {
+    color: #fff;
+    cursor: pointer;
 }
 .header-links ul {
     display: flex;
@@ -36,11 +43,11 @@
     justify-content: center;
 }
 .header-links ul li {
+    list-style-type: none;
     margin: 1rem;
 }
 .header-links ul li a {
     color: #fff;
-    list-style-type: none;
     text-decoration: none;
 }
 .btns {
@@ -57,6 +64,8 @@
     background: linear-gradient(to right, #469071, #000);
     color: #fff;
     cursor: pointer;
+    border-radius: 5px;
+    border: none;
 }
 .btns .btn-app {
     cursor: pointer;
@@ -65,6 +74,7 @@
     color: #fff;
     margin: 1rem;
     background-color: #01211D;
+    border-radius: 5px;
 }
 
 .header-container-down {
@@ -72,16 +82,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
     font-size: larger;
     font-weight: bolder;
 }
 .header-container-down h1 {
-    font-size: 7rem;
+    font-size: 4.7rem;
     font-weight: 900;
-    text-shadow: 6px 0 2px #469071;
-    margin-top: 1rem;
+    text-shadow: 6px 0 2px #469071, 0 0 10px #fff;
     margin-bottom: 1rem;
 }
 .header-container-down p {
@@ -90,6 +98,9 @@
 }
 
 /* FEATURES CSS */
+.features-word {
+    color: rgb(0, 0, 255);
+}
 
 .features-container {
     display: flex;
@@ -106,19 +117,18 @@
 }
 .buy-token-btn::before {
     position: absolute;
-    top: 1033px;
-    left: 0px;
+    top: 105%;
+    left: 0;
     content: "";
-    width: 20px;
-    height: 42px;
+    width: 2.2rem;
+    height: 8rem;
     background: rgba(255, 255, 255, 0.2);
     transform: skew(-60deg);
-    /* transition: 1s; */
-    animation: shine 2.5s ease infinite;
+    animation: shine 1.8s ease infinite;
 }
 @keyframes shine {
-    from {left: 980px;}
-    to {left: 1400px;}
+    from {left: 42%;}
+    to {left: 78%;}
 }
 .buy-token-btn button{
     width: 12rem;
@@ -127,6 +137,7 @@
     border: 0;
     color: #fff;
     background: linear-gradient(to right, #01211d, #469071 );
+    cursor: pointer;
 }
 .features-container-down {
     display: flex;
@@ -138,12 +149,17 @@
     justify-content: space-between;
 }
 .earn-vote {
-    width: 20rem;
+    width: 24rem;
 }
 .supply-borrow {
-    width: 20rem;
+    width: 24rem;
 }
-
+.rectangle-ellipse {
+    margin-top: 1.4rem;
+}
+.rectangle-ellipse-img {
+    height: 13rem;
+}
 
 
 
