@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hatom-job-apply-task/static/css/main.36388af7.css",
+    "main.js": "/hatom-job-apply-task/static/js/main.a54a38a8.js",
+    "static/media/hatom token header 1.png": "/hatom-job-apply-task/static/media/hatom token header 1.a4a1fabaf65b8386e8e1.png",
+    "static/media/new logo.svg": "/hatom-job-apply-task/static/media/new logo.9fbe634b1b866f1562220557cdc454f8.svg",
+    "index.html": "/hatom-job-apply-task/index.html",
+    "main.36388af7.css.map": "/hatom-job-apply-task/static/css/main.36388af7.css.map",
+    "main.a54a38a8.js.map": "/hatom-job-apply-task/static/js/main.a54a38a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36388af7.css",
+    "static/js/main.a54a38a8.js"
+  ]
+}
